@@ -40,7 +40,6 @@ server "192.168.31.48", user: "ankh", roles: %w{app db web}, my_property: :my_va
 # http://net-ssh.github.io/net-ssh/classes/Net/SSH.html#method-c-start
 #
 # Global options
---------------
 set :ssh_options, {
     keys: %w(~/.ssh/id_rsa),
     forward_agent: true,
