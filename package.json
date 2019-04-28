@@ -1,0 +1,5 @@
+{
+  "name": "capistrano-postresql",
+  "private": true,
+  "dependencies": {}
+}
